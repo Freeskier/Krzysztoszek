@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginVertical="120dp"
+    android:layout_marginHorizontal="50dp"
+
+    >
+
+    <LinearLayout
+        android:background="@drawable/rounded_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:minWidth="240dp"
+        android:paddingBottom="20dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_header"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35sp"
+                android:text="@string/add_room"
+                android:gravity="center"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp">
+            <EditText
+                android:id="@+id/capacityAdd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:hint="@string/capacity"
+                android:background="@drawable/rounded_et"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/doorNumAdd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:hint="@string/door_number"
+                android:background="@drawable/rounded_et"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/imageAdd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:hint="@string/image_url"
+                android:background="@drawable/rounded_et"
+                android:layout_marginTop="20dp"
+                />
+            <EditText
+                android:id="@+id/priceAdd"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:hint="@string/price_per_day"
+                android:background="@drawable/rounded_et"
+                android:layout_marginTop="20dp"
+                />
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/add_room"
+                android:background="@drawable/rounded_button"
+                android:id="@+id/addRoomBtn"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

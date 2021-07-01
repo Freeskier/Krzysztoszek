@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Room Book</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="bikes">Bikes</string>
+    <string name="mybookings">My bookings</string>
+    <string name="bookIt">Book room</string>
+    <string name="dateFrom">Date From</string>
+    <string name="dateTo">Date To</string>
+    <string name="reservations">Reservations</string>
+    <string name="reservation">Your reservation</string>
+    <string name="all_rooms">All rooms</string>
+    <string name="profile">Profile</string>
+    <string name="guests_count">Guests count:</string>
+    <string name="add_room">Add room</string>
+    <string name="capacity">Capacity</string>
+    <string name="door_number">Door number</string>
+    <string name="image_url">Image URL</string>
+    <string name="price_per_day">Price per day</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="my_reservations">My reservations</string>
+
+</resources>
